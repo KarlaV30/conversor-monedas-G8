@@ -9,6 +9,7 @@ import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
+//Contiene la logica del negocio
 public class ConversorService {
     private static final String API_KEY = "4df3966442cca204736d0aea";
     private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/";
@@ -25,7 +26,7 @@ public class ConversorService {
         HttpResponse<String> response = client
                 .send(request, HttpResponse.BodyHandlers.ofString());
 
-//        System.out.println("Respuesta de la API: " + response.body());
+
 
 
         Gson gson = new Gson();

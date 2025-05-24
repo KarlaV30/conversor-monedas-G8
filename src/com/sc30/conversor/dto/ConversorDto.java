@@ -1,5 +1,5 @@
 package com.sc30.conversor.dto;
-
+//transporta datos entre capas
 public class ConversorDto {
 
     private String base_code;

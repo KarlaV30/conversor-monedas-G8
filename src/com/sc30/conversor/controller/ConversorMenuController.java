@@ -5,9 +5,10 @@ import com.sc30.conversor.service.ConversorService;
 import java.io.IOException;
 import java.util.Scanner;
 
-
+//maneja la interaccon con el usuario
 public class ConversorMenuController {
 
+    //se instancia la clase ConversorService
     private final ConversorService conversorService = new ConversorService();
     private final Scanner sc = new Scanner(System.in);
 
